@@ -1,0 +1,24 @@
+# ide
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# python
+__pycache__/
+*.pyc
+/*.egg-info
+/dist/
+/build/
+.ipynb_checkpoints
+.mypy_cache/
+
+# unit test
+.coverage
+coverage.xml
+.pytest_cache/
+
+# exe ファイルは要らない
+*.png
